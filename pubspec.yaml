@@ -5,8 +5,8 @@ homepage: https://github.com/square/in-app-payments-flutter-plugin
 documentation: https://github.com/square/in-app-payments-flutter-plugin
 
 environment:
-  sdk: '>=2.17.6 <3.0.0'
-  flutter: ">=1.10.0"
+  sdk: '>=2.12.0 <3.0.0'   # Update to the minimum SDK version for null safety
+  flutter: ">=2.0.0"        # Update the flutter version
 
 dependencies:
   flutter:
@@ -21,7 +21,6 @@ dev_dependencies:
   source_gen: ^1.2.2
   built_value_generator: ^8.4.1
 
-# The following section is specific to Flutter.
 flutter:
   plugin:
     platforms:
@@ -30,3 +29,4 @@ flutter:
         pluginClass: SquareInAppPaymentsFlutterPlugin
       ios:
         pluginClass: SquareInAppPaymentsFlutterPlugin
+
